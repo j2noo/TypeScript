@@ -1,4 +1,5 @@
-//추상클래스 user
+{
+  //추상클래스 user
 abstract class User {
   constructor(protected firstName: string, protected lastName: string) {}
 
@@ -35,4 +36,6 @@ class Player2 implements User2 {
   public fullName(): string {
     return this.firstName + " " + this.lastName;
   }
+}
+
 }
