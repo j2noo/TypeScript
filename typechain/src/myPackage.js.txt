@@ -1,0 +1,21 @@
+//@ts-check
+/**
+ * initialize project // write!
+ * 각 함수마다 코멘트를 설정하여, 매개변수와 반환값에 대한 타입을 설명하자
+ * @param {object} config 
+ * @param {boolean} config.debug
+ * @param {string} config.url
+ * @returns {boolean}
+ */
+export function init(config) {
+  return true;
+}
+/**
+ * 
+ * @param {number} code 
+ * @returns {number}
+ */
+export function exit(code) {
+  return code + 1;
+}
+ 

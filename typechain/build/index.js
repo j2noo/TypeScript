@@ -1,2 +1,3 @@
 "use strict";
-const hello = () => "hi";
+const hello = () => "hihi";
+console.log("hihi by consile");
